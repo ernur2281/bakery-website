@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Healthy Bread - Private Sourdough Bakery</title>
+  <meta name="description" content="Private bakery of healthy bread: sourdough without yeast and chemistry, ingredients, prices and morning delivery.">
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Open menu">
+  <input type="radio" name="theme" id="theme-light" class="theme-input" aria-label="Light theme" checked>
+  <input type="radio" name="theme" id="theme-dark" class="theme-input" aria-label="Dark theme">
+  <header class="site-header">
+    <section class="wrap bar">
+      <a class="logo" href="#top"><img src="assets/logo.svg" alt=""><span>Healthy Bread</span></a>
+      <label for="nav-toggle" class="burger" aria-hidden="true"><span></span><span></span><span></span></label>
+      <nav class="site-nav" aria-label="Main">
+        <a href="#catalog">Our Bread</a>
+        <a href="#recipes">Recipes</a>
+        <a href="#points">Points of Sale</a>
+        <a href="#contacts">Contacts</a>
+      </nav>
+    </section>
+  </header>
+ 
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <section class="wrap">
+        <h1 id="hero-title">Bread on Sourdough without Yeast and Chemistry</h1>
+        <p>Slow-fermented loaves baked every night in small batches and delivered warm before breakfast.</p>
+        <p class="hero__actions">
+          <a class="btn btn--light" href="#catalog">View Catalog</a>
+          <a class="btn btn--ghost" href="#delivery">Get morning delivery</a>
+        </p>
+      </section>
+    </section>
+ 
+    <section class="block" id="why" aria-labelledby="why-title">
+      <section class="wrap">
+        <h2 class="head" id="why-title">Why our bread is different</h2>
+        <ul class="facts"><li><article><h3>No yeast</h3><p class="mut">Only flour, water, salt and a living starter. The dough rises slowly on its own.</p></article></li><li><article><h3>48-hour fermentation</h3><p class="mut">Slow fermentation gives deeper flavor and keeps the loaf fresh for longer.</p></article></li><li><article><h3>Local flour</h3><p class="mut">Grain from small farms near Almaty, milled fresh every week.</p></article></li></ul>
+      </section>
+    </section>
+ 
+    <section class="block block--alt" id="catalog" aria-labelledby="catalog-title">
+      <section class="wrap">
+        <header class="head">
+          <h2 id="catalog-title">Our Bread</h2>
+          <p class="lead">Energy value, ingredients and price for every loaf.</p>
+        </header>
+        <ul class="grid grid--4 catalog">
+        <li><article class="card">
+          <figure><img src="https://images.unsplash.com/photo-1707915317302-9565553eea02?auto=format&amp;fit=crop&amp;w=800&amp;q=70" alt="Sourdough Rye" loading="lazy"></figure>
+          <h3>Sourdough Rye</h3>
+          <p class="kcal">210 kcal <span>per 100 g</span></p>
+          <dl class="macros"><dt>Protein</dt><dd>7 g</dd><dt>Fat</dt><dd>1 g</dd><dt>Carbs</dt><dd>42 g</dd></dl>
+          <p class="meta"><strong>Ingredients:</strong> Rye flour, water, starter, sea salt</p>
+          <p class="card__foot"><strong class="price">$4.50</strong><span class="badge">Contains gluten</span></p>
+        </article></li>
+        <li><article class="card">
+          <figure><img src="https://images.unsplash.com/photo-1624323209995-b617d99ce390?auto=format&amp;fit=crop&amp;w=800&amp;q=70" alt="Buckwheat Loaf" loading="lazy"></figure>
+          <h3>Buckwheat Loaf</h3>
+          <p class="kcal">190 kcal <span>per 100 g</span></p>
+          <dl class="macros"><dt>Protein</dt><dd>8 g</dd><dt>Fat</dt><dd>3 g</dd><dt>Carbs</dt><dd>34 g</dd></dl>
+          <p class="meta"><strong>Ingredients:</strong> Buckwheat, water, starter, flax seeds</p>
+          <p class="card__foot"><strong class="price">$5.20</strong><span class="badge badge--gf">Gluten-Free</span></p>
+        </article></li>
+        <li><article class="card">
+          <figure><img src="https://images.unsplash.com/photo-1558465984-9a9302b5b0bc?auto=format&amp;fit=crop&amp;w=800&amp;q=70" alt="Country Wheat" loading="lazy"></figure>
+          <h3>Country Wheat</h3>
+          <p class="kcal">230 kcal <span>per 100 g</span></p>
+          <dl class="macros"><dt>Protein</dt><dd>8 g</dd><dt>Fat</dt><dd>1 g</dd><dt>Carbs</dt><dd>47 g</dd></dl>
+          <p class="meta"><strong>Ingredients:</strong> Wheat flour, water, starter, salt</p>
+          <p class="card__foot"><strong class="price">$4.20</strong><span class="badge">Contains gluten</span></p>
+        </article></li>
+        <li><article class="card">
+          <figure><img src="https://images.unsplash.com/photo-1618146690845-6dbb126fa76b?auto=format&amp;fit=crop&amp;w=800&amp;q=70" alt="Seeded Whole Grain" loading="lazy"></figure>
+          <h3>Seeded Whole Grain</h3>
+          <p class="kcal">245 kcal <span>per 100 g</span></p>
+          <dl class="macros"><dt>Protein</dt><dd>10 g</dd><dt>Fat</dt><dd>5 g</dd><dt>Carbs</dt><dd>40 g</dd></dl>
+          <p class="meta"><strong>Ingredients:</strong> Whole grain, sunflower, sesame, starter</p>
+          <p class="card__foot"><strong class="price">$5.60</strong><span class="badge">Contains gluten</span></p>
+        </article></li>
+        <li><article class="card">
+          <figure><img src="https://images.unsplash.com/photo-1618146690845-6dbb126fa76b?auto=format&amp;fit=crop&amp;w=800&amp;q=70" alt="Rice Flour Boule" loading="lazy"></figure>
+          <h3>Rice Flour Boule</h3>
+          <p class="kcal">180 kcal <span>per 100 g</span></p>
+          <dl class="macros"><dt>Protein</dt><dd>4 g</dd><dt>Fat</dt><dd>1 g</dd><dt>Carbs</dt><dd>39 g</dd></dl>
+          <p class="meta"><strong>Ingredients:</strong> Rice flour, water, starter, psyllium</p>
+          <p class="card__foot"><strong class="price">$5.80</strong><span class="badge badge--gf">Gluten-Free</span></p>
+        </article></li>
+        <li><article class="card">
+          <figure><img src="https://images.unsplash.com/photo-1558465984-9a9302b5b0bc?auto=format&amp;fit=crop&amp;w=800&amp;q=70" alt="Spelt Baguette" loading="lazy"></figure>
+          <h3>Spelt Baguette</h3>
+          <p class="kcal">205 kcal <span>per 100 g</span></p>
+          <dl class="macros"><dt>Protein</dt><dd>8 g</dd><dt>Fat</dt><dd>1 g</dd><dt>Carbs</dt><dd>41 g</dd></dl>
+          <p class="meta"><strong>Ingredients:</strong> Spelt flour, water, starter, salt</p>
+          <p class="card__foot"><strong class="price">$3.90</strong><span class="badge">Contains gluten</span></p>
+        </article></li>
+        <li><article class="card">
+          <figure><img src="https://images.unsplash.com/photo-1624323209995-b617d99ce390?auto=format&amp;fit=crop&amp;w=800&amp;q=70" alt="Oat Sourdough" loading="lazy"></figure>
+          <h3>Oat Sourdough</h3>
+          <p class="kcal">215 kcal <span>per 100 g</span></p>
+          <dl class="macros"><dt>Protein</dt><dd>7 g</dd><dt>Fat</dt><dd>3 g</dd><dt>Carbs</dt><dd>40 g</dd></dl>
+          <p class="meta"><strong>Ingredients:</strong> Oat flour, wheat, water, starter</p>
+          <p class="card__foot"><strong class="price">$4.80</strong><span class="badge">Contains gluten</span></p>
+        </article></li>
+        <li><article class="card">
+          <figure><img src="https://images.unsplash.com/photo-1707915317302-9565553eea02?auto=format&amp;fit=crop&amp;w=800&amp;q=70" alt="Millet Loaf" loading="lazy"></figure>
+          <h3>Millet Loaf</h3>
+          <p class="kcal">175 kcal <span>per 100 g</span></p>
+          <dl class="macros"><dt>Protein</dt><dd>5 g</dd><dt>Fat</dt><dd>2 g</dd><dt>Carbs</dt><dd>36 g</dd></dl>
+          <p class="meta"><strong>Ingredients:</strong> Millet, buckwheat, water, starter</p>
+          <p class="card__foot"><strong class="price">$5.40</strong><span class="badge badge--gf">Gluten-Free</span></p>
+        </article></li>
+        </ul>
+      </section>
+    </section>
+ 
+    <section class="block" id="process" aria-labelledby="process-title">
+      <section class="wrap process">
+        <figure><img src="https://images.unsplash.com/photo-1618146690845-6dbb126fa76b?auto=format&amp;fit=crop&amp;w=1000&amp;q=70" alt="Dark crust sourdough loaf on a black surface" loading="lazy"></figure>
+        <article>
+          <h2 id="process-title">How we bake</h2>
+          <ol class="steps"><li><article><h3>Feed the starter</h3><p class="mut">The evening before, we refresh the starter with flour and water.</p></article></li><li><article><h3>Mix and rest</h3><p class="mut">Dough is mixed by hand and rests for several hours.</p></article></li><li><article><h3>Shape and ferment</h3><p class="mut">Loaves are shaped and ferment overnight in the cool.</p></article></li><li><article><h3>Bake and deliver</h3><p class="mut">We bake at dawn and bring warm bread to your door.</p></article></li></ol>
+        </article>
+      </section>
+    </section>
+ 
+    <section class="block block--alt" id="recipes" aria-labelledby="recipes-title">
+      <section class="wrap">
+        <header class="head">
+          <h2 id="recipes-title">Recipes</h2>
+          <p class="lead">Simple ideas for using your loaf from the first slice to the last crumb.</p>
+        </header>
+        <ul class="grid grid--3"><li><article class="card card--wide"><figure><img src="https://images.unsplash.com/photo-1707915317302-9565553eea02?auto=format&amp;fit=crop&amp;w=800&amp;q=70" alt="Avocado and egg toast" loading="lazy"></figure><h3>Avocado and egg toast</h3><p class="mut">Thick slice of rye sourdough, ripe avocado, a soft egg and lemon.</p><p class="meta">Ready in 10 minutes</p></article></li><li><article class="card card--wide"><figure><img src="https://images.unsplash.com/photo-1558465984-9a9302b5b0bc?auto=format&amp;fit=crop&amp;w=800&amp;q=70" alt="Rye croutons for soup" loading="lazy"></figure><h3>Rye croutons for soup</h3><p class="mut">Cube yesterday's loaf, toss with oil and herbs, bake until crisp.</p><p class="meta">Ready in 20 minutes</p></article></li><li><article class="card card--wide"><figure><img src="https://images.unsplash.com/photo-1618146690845-6dbb126fa76b?auto=format&amp;fit=crop&amp;w=800&amp;q=70" alt="Buckwheat bread pudding" loading="lazy"></figure><h3>Buckwheat bread pudding</h3><p class="mut">Soak buckwheat loaf in milk with apples and cinnamon, then bake.</p><p class="meta">Ready in 45 minutes</p></article></li></ul>
+      </section>
+    </section>
+ 
+    <section class="block" id="points" aria-labelledby="points-title">
+      <section class="wrap">
+        <h2 class="head" id="points-title">Points of Sale</h2>
+        <ul class="rows"><li><article><h3>Bakery Corner</h3><address>Abay Avenue 52, Almaty</address><p class="meta">Daily 7:00-21:00</p></article></li><li><article><h3>Green Market Stall</h3><address>Dostyk Avenue 118, Almaty</address><p class="meta">Daily 8:00-20:00</p></article></li><li><article><h3>Morning Kiosk</h3><address>Al-Farabi Avenue 77, Almaty</address><p class="meta">Mon-Sat 7:00-14:00</p></article></li><li><article><h3>Kaskelen Shop</h3><address>Rayymbek Street 14, Kaskelen</address><p class="meta">Daily 8:00-19:00</p></article></li></ul>
+      </section>
+    </section>
+ 
+    <section class="block block--alt" id="delivery" aria-labelledby="delivery-title">
+      <section class="wrap split">
+        <article>
+          <h2 id="delivery-title">Morning delivery</h2>
+          <p class="lead">Fresh bread at your door before breakfast. Leave your details and we will call to confirm.</p>
+          <figure><img src="https://images.unsplash.com/photo-1624323209995-b617d99ce390?auto=format&amp;fit=crop&amp;w=900&amp;q=70" alt="Round rye loaf on a white table" loading="lazy"></figure>
+        </article>
+        <form class="form" action="#thanks" method="get">
+          <p><label for="name">Name</label>
+            <input id="name" name="name" type="text" placeholder="Your name" required minlength="2" autocomplete="name">
+            <span class="hint">Enter at least 2 characters.</span></p>
+          <p><label for="phone">Phone</label>
+            <input id="phone" name="phone" type="tel" placeholder="+7 700 000 00 00" required pattern="\+?[0-9 ]{10,16}" autocomplete="tel">
+            <span class="hint">Use a phone number like +7 700 000 00 00.</span></p>
+          <p><label for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="name@example.com" required autocomplete="email">
+            <span class="hint">Enter a valid email address.</span></p>
+          <p><label for="frequency">Frequency</label>
+            <select id="frequency" name="frequency" required>
+              <option value="" selected disabled>Choose how often</option>
+              <option>Every morning</option>
+              <option>Weekdays</option>
+              <option>Three times a week</option>
+              <option>Once a week</option>
+            </select></p>
+          <p class="full"><label for="address">Delivery Address</label>
+            <input id="address" name="address" type="text" placeholder="Street, house, apartment" required minlength="5" autocomplete="street-address">
+            <span class="hint">Enter your full address.</span></p>
+          <button class="btn full" type="submit">Subscribe to delivery</button>
+          <p class="status full" id="thanks" role="status">Thank you! We will call you to confirm delivery.</p>
+        </form>
+      </section>
+    </section>
+  </main>
+ 
+  <footer class="site-footer" id="contacts">
+    <section class="wrap footer__grid">
+      <section>
+        <a class="logo" href="#top"><img src="assets/logo.svg" alt=""><span>Healthy Bread</span></a>
+        <p class="meta">Private bakery of healthy bread, Almaty.</p>
+        <address class="meta">+7 700 000 00 00<br>hello@healthybread.example</address>
+      </section>
+      <nav aria-label="Footer">
+        <h2 class="footer__title">Navigate</h2>
+        <ul><li><a href="#catalog">Our Bread</a></li><li><a href="#recipes">Recipes</a></li><li><a href="#points">Points of Sale</a></li><li><a href="#delivery">Delivery</a></li></ul>
+      </nav>
+      <section>
+        <h2 class="footer__title">Legal information</h2>
+        <ul><li><a href="#">Raw material certificates</a></li><li><a href="#">Quality compliance documents</a></li><li><a href="#">Privacy policy</a></li></ul>
+      </section>
+      <section>
+        <h2 class="footer__title">Theme</h2>
+        <p class="theme" role="group" aria-label="Color theme">
+          <label for="theme-light">Light</label>
+          <label for="theme-dark">Dark</label>
+        </p>
+      </section>
+    </section>
+    <section class="wrap">
+      <small class="meta">&copy; 2026 Healthy Bread. Raw materials comply with food safety requirements.<br>
+      Photos on <a href="https://unsplash.com">Unsplash</a>: <a href="https://unsplash.com/@diaduit">Rebekah Vos</a>, <a href="https://unsplash.com/@tunnuz">Tommaso Urli</a>, <a href="https://unsplash.com/@teofromrio">Teo Do Rio</a>, <a href="https://unsplash.com/@spring_fed_images">Spring Fed Images</a>.</small>
+    </section>
+  </footer>
+</body>
+</html>
+ 
